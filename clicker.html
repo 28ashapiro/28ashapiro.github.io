@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goop clicker</title>
+    <link rel="icon" href="img/gleepus.jpg">
+    <link rel="stylesheet" href="css/clickerstyle.css">
+</head>
+
+<body>
+    <div id="goopCount"></div>
+    <button onclick="increaseGoop()">
+        <img src="img/gleepus.jpg" alt="">
+        
+    </button>
+<h1></h1> click on gleepus to get goop!
+</body>
+
+<script>
+    var goops = 0;
+    function increaseGoop() {
+        goops++;
+        document.getElementById("goopCount").innerText = "goops: " + goops;
+    }
+</script>
+</html>
