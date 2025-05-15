@@ -11,3 +11,7 @@ body {
 body img {
     border: 0px;
 }
+
+* {
+    font-family: cursive;
+}
