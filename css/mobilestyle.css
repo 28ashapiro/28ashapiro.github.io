@@ -1,0 +1,63 @@
+* {
+    background-color: #002700;
+    font-family: comic sans ms;
+}
+
+#mtitle {
+    margin: 5%;
+    background-color: rgb(0, 255, 0);
+    text-align: center;
+    height: 75px;
+    font-size: xxx-large;
+    border-radius: 100px;
+    border: 10px solid #000000;
+    width: auto;
+    margin-bottom: 0px;
+}
+
+img {
+    margin: 0%;
+    font-size: 0%;
+    border: 0px;
+    background-color: transparent;
+    width: 5%;
+}
+
+#mtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mlinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mlink1 , #mlink2 , #mlink3 , #mlink4  {
+    margin: auto;
+    background-color: rgb(0, 255, 0);
+    font-size: x-large;
+    border-radius: 100px;
+    border: 10px solid #000000;
+}
+#mlink1 a, #mlink2 a, #mlink3 a, #mlink4 a {
+    background-color: rgb(0, 255, 0);
+    margin: 5%;
+    text-align: center;
+    width: auto;
+}
+#mlink1 , #mlink2 , #mlink3 , #mlink4 {
+    margin: 10px;
+    text-align: center;
+    height: auto;
+    width: max-content;
+    font-size: x-large;
+    border-radius: 100px;
+    border: 10px solid #000000;
+    background-color: rgb(0, 255, 0);
+    list-style: none;
+    padding: 10px;
+}

@@ -1,0 +1,1 @@
+alert("what type of device are you using? (tap link depending on device)")
