@@ -178,12 +178,16 @@ div , a {
 
 #rin , #kaiser , #isagi {
     background-color: transparent;
-   width: 100%;
+   
+}
+
+#rin {
+    
 }
 
 .snuffy {
     background-color: transparent;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 2500px;
 }
