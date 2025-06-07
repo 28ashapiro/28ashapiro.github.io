@@ -1,5 +1,5 @@
 * {
-    font-family: cursive;
+    font-family: comic sans ms;
     background-color: #002700;
     color: black;
     overflow: hidden;
@@ -42,7 +42,6 @@ img {
     background-color: rgb(0, 255, 0);
     list-style: none;
     padding: 10px;
-
 }
 
 #content {
@@ -54,7 +53,7 @@ img {
 
 #content a,
 li {
-    background-color: rgb(0, 255, 0);
+    background-color: #00ff00;
     list-style: none;
 
 }
@@ -208,4 +207,8 @@ div , a {
 
 #gub , a {
     background-color: transparent;
+}
+
+#workinprogress, a {
+    background-color: #002700;
 }

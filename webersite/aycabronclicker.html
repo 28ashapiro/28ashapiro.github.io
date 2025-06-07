@@ -4,43 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>goop clicker</title>
-    <link rel="icon" href="img/gleepus.jpg">
+    <link rel="icon" href="img/aycabron.jpg">
     <link rel="stylesheet" href="css/clickerstyle.css">
 </head>
 
 <body>
-    <div id="goopCount">goop: 0</div>
-    <button class="button" onclick="increaseGoop()">
-        <img src="img/gleepus.png" alt="">
+    <div id="aycabronCount">aycabrons: 0</div>
+    <button class="button" onclick="increaseayCabron()">
+        <img src="img/aycabron.jpg" alt="">
     </button>
-<h1></h1> <div id="instructions">click on gleepus to get goop! :3</div>
+<h1></h1> <div id="instructions">click img to get aycabrons :3</div>
+<h1></h1> <div id="instructions2">or hit space! :3</div>
 </body>
 
 <script>
-    var goops = 0;
-    function increaseGoop() {
-        goops++;
-        document.getElementById("goopCount").innerText = "goops: " + goops;
+    var aycabrons = 0;
+    function increaseayCabron() {
+        aycabrons++;
+        document.getElementById("aycabronCount").innerText = "aycabrons: " + aycabrons;
     }
 </script>
 <style>
 .button {
-  padding: 15px 25px;
   font-size: 24px;
   text-align: center;
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: rgb(0,255,0);
+  background-color: rgb(255, 0, 255);
   border: #000000 10px solid;
-  border-radius: 15px;
+  border-radius: 100px;
+  height: 605px;
   box-shadow: 0 9px #000000;
 }
 
-.button:hover {background-color: rgb(0,255,0)}
+.button:hover {background-color: rgb(255,0,255)}
 
 .button:active {
-  background-color: rgb(0,255,0);
+  background-color: rgb(255,0,255);
   transform: translateY(4px);
   border: #000000 10px solid;
   box-shadow: 0 1px #000000;

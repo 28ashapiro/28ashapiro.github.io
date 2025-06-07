@@ -98,3 +98,37 @@ img {
     width: auto;
     overflow: hidden;
 }
+
+#workinprogress a {
+    background-color: #002700;
+    font-size: x-large;
+    border-radius: 100px;
+    border: 10px solid #000000;
+}
+
+#workinprogress a {
+    background-color: #002700;
+    margin: 5%;
+    text-align: center;
+    width: auto;
+    text-decoration: underline;
+    color: #000000;
+}
+
+#workinprogress a {
+    margin: 10px;
+    text-align: center;
+    height: auto;
+    width: 200px;
+    font-size: x-large;
+    border-radius: 100px;
+    border: 10px solid #000000;
+    background-color: #005600;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
