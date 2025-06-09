@@ -209,6 +209,26 @@ div , a {
     background-color: transparent;
 }
 
-#workinprogress a {
+.workinprogress {
     background-color: #002700;
+}
+
+.workinprogress #content {
+    background-color: #005600 ;
+}
+
+.workinprogress #content a {
+    background-color: #005600 ;
+}
+
+.workinprogress #content nav{
+    background-color: #005600 ;
+}
+
+.workinprogress #content li {
+    background-color: #005600;
+}
+
+.workinprogress #content ul {
+    background-color: #005600;
 }
