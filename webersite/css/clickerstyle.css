@@ -1,16 +1,13 @@
 body {
     margin: 5%;
-    background-color:rgb(50, 0, 50);
+    background-color: #320032;
     text-align: center;
-    color: rgb(255, 0, 255);
     height: 75px;
-    font-size: xxx-large;
 }
 
 
 * {
-    font-family: cursive;
-
+    font-family: comic sans ms;
 }
 
 #instructions {
@@ -19,40 +16,25 @@ body {
     background-color: rgb(255, 0, 255);
     text-align: center;
     color: black;
-    height: 75px;
-    font-size: xxx-large;
+    height: fit-content;
+    font-size: xx-large;
     width: fit-content;
-    margin-bottom: 0px;
+    margin-top: 0px;
     margin: auto;
     border-radius: 30px;
     align-content: center;
     box-shadow: 0 9px #000000;
 }
 
-#instructions2 {
-    border: #000000 10px solid;
-    margin: 5%;
-    background-color: rgb(255, 0, 255);
-    text-align: center;
-    color: black;
-    height: 75px;
-    font-size: xxx-large;
-    width: fit-content;
-    margin-bottom: 0px;
-    margin: auto;
-    border-radius: 30px;
-    align-content: center;
-    box-shadow: 0 9px #000000;
-}
 
-#goopCount {
+#aycabronCount {
     border: #000000 10px solid;
     margin: 5%;
     background-color: rgb(255, 0, 255);
     text-align: center;
     color: black;
     height: 75px;
-    font-size: xxx-large;
+    font-size: xx-large;
     width: fit-content;
     margin-bottom: 0px;
     margin: auto;
@@ -65,14 +47,13 @@ body {
 }
 
 
-#goopCount {
+#aycabronCount {
     height: 100px;
 }
 
-body .button {
-padding: 0%;
-padding-bottom: 0%;
-overflow: hidden;
+.button img {
+ width: 200px;
+ border: rgb(255, 0, 255) 10px solid;
+ border-radius: 20%;
 }
-
-/* this is good news mark, we can finally be bees */
+/* this is good news mark, we can be a bee */
