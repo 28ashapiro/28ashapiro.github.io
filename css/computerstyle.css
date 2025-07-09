@@ -232,3 +232,24 @@ div , a {
 .workinprogress #content ul {
     background-color: #005600;
 }
+
+#gurt {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+    font-size: xxx-large;
+    border-radius: 100px;
+    width: auto;
+    margin-bottom: 0px;
+    margin: 5%;
+    border: #000000 10px solid;
+}
+
+#gurt img {
+    width: 2000px;
+    height: 500px;
+    border-radius: 0%;
+}
