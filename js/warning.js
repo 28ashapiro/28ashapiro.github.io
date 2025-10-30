@@ -1,0 +1,1 @@
+alert("opening in a new tab!")
